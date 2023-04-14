@@ -9,7 +9,8 @@
     "preview": "vite preview",
     "prepare": "husky install",
     "prettier": "prettier --write src/",
-    "lint": "eslint src/"
+    "lint": "eslint src/",
+    "tscheck": "tsc --noEmit"
   },
   "dependencies": {
     "react": "^18.2.0",
