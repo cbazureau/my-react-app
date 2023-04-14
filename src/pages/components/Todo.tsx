@@ -12,10 +12,8 @@ type TodoProps = {
 
 const Todo = ({ todo, removeTodo, toggleTodo }: TodoProps) => (
   <div>
-    {todo.text} <button onClick={() => removeTodo(todo.id)}>Remove</button>{" "}
-    <button onClick={() => toggleTodo(todo.id)}>
-      {todo.isDone ? "✅" : "❌"}
-    </button>
+    {todo.text} <button onClick={() => removeTodo(todo.id)}>Remove</button>{' '}
+    <button onClick={() => toggleTodo(todo.id)}>{todo.isDone ? '✅' : '❌'}</button>
   </div>
 );
 

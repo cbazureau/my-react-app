@@ -1,5 +1,5 @@
-import { createContext } from "react";
-import { TodoType } from "../pages/components/Todo";
+import { createContext } from 'react';
+import { TodoType } from '../pages/components/Todo';
 
 type Context = {
   todos: TodoType[];
