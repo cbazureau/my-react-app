@@ -4,7 +4,7 @@ import Todo from './components/Todo';
 import TodoBottomBar from './components/TodoBottomBar';
 
 const PageList = () => {
-  const { todo, removeTodo, toggleTodo } = useContext(TodoContext);
+  const { todos, removeTodo, toggleTodo } = useContext(TodoContext);
 
   return (
     <Fragment>
